@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFEF63AF19AF781200D87984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF63AE19AF781200D87984 /* Foundation.framework */; };
+		CFEF63B119AF781200D87984 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF63B019AF781200D87984 /* CoreGraphics.framework */; };
+		CFEF63B319AF781200D87984 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF63B219AF781200D87984 /* UIKit.framework */; };
+		CFEF63B919AF781200D87984 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFEF63B719AF781200D87984 /* InfoPlist.strings */; };
+		CFEF63BB19AF781200D87984 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEF63BA19AF781200D87984 /* main.m */; };
+		CFEF63BF19AF781200D87984 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEF63BE19AF781200D87984 /* AppDelegate.m */; };
+		CFEF63C219AF781200D87984 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFEF63C019AF781200D87984 /* Main.storyboard */; };
+		CFEF63C519AF781200D87984 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEF63C419AF781200D87984 /* ViewController.m */; };
+		CFEF63C719AF781200D87984 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFEF63C619AF781200D87984 /* Images.xcassets */; };
+		CFEF63CE19AF781200D87984 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF63CD19AF781200D87984 /* XCTest.framework */; };
+		CFEF63CF19AF781200D87984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF63AE19AF781200D87984 /* Foundation.framework */; };
+		CFEF63D019AF781200D87984 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFEF63B219AF781200D87984 /* UIKit.framework */; };
+		CFEF63D819AF781200D87984 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CFEF63D619AF781200D87984 /* InfoPlist.strings */; };
+		CFEF63DA19AF781200D87984 /* OKHeroTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFEF63D919AF781200D87984 /* OKHeroTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFEF63D119AF781200D87984 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFEF63A319AF781200D87984 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFEF63AA19AF781200D87984;
+			remoteInfo = OKHero;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFEF63AB19AF781200D87984 /* OKHero.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OKHero.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEF63AE19AF781200D87984 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CFEF63B019AF781200D87984 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CFEF63B219AF781200D87984 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CFEF63B619AF781200D87984 /* OKHero-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OKHero-Info.plist"; sourceTree = "<group>"; };
+		CFEF63B819AF781200D87984 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFEF63BA19AF781200D87984 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFEF63BC19AF781200D87984 /* OKHero-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OKHero-Prefix.pch"; sourceTree = "<group>"; };
+		CFEF63BD19AF781200D87984 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFEF63BE19AF781200D87984 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFEF63C119AF781200D87984 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFEF63C319AF781200D87984 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFEF63C419AF781200D87984 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFEF63C619AF781200D87984 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CFEF63CC19AF781200D87984 /* OKHeroTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OKHeroTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFEF63CD19AF781200D87984 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CFEF63D519AF781200D87984 /* OKHeroTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OKHeroTests-Info.plist"; sourceTree = "<group>"; };
+		CFEF63D719AF781200D87984 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CFEF63D919AF781200D87984 /* OKHeroTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OKHeroTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFEF63A819AF781200D87984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEF63B119AF781200D87984 /* CoreGraphics.framework in Frameworks */,
+				CFEF63B319AF781200D87984 /* UIKit.framework in Frameworks */,
+				CFEF63AF19AF781200D87984 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEF63C919AF781200D87984 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEF63CE19AF781200D87984 /* XCTest.framework in Frameworks */,
+				CFEF63D019AF781200D87984 /* UIKit.framework in Frameworks */,
+				CFEF63CF19AF781200D87984 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFEF63A219AF781200D87984 = {
+			isa = PBXGroup;
+			children = (
+				CFEF63B419AF781200D87984 /* OKHero */,
+				CFEF63D319AF781200D87984 /* OKHeroTests */,
+				CFEF63AD19AF781200D87984 /* Frameworks */,
+				CFEF63AC19AF781200D87984 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFEF63AC19AF781200D87984 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFEF63AB19AF781200D87984 /* OKHero.app */,
+				CFEF63CC19AF781200D87984 /* OKHeroTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFEF63AD19AF781200D87984 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CFEF63AE19AF781200D87984 /* Foundation.framework */,
+				CFEF63B019AF781200D87984 /* CoreGraphics.framework */,
+				CFEF63B219AF781200D87984 /* UIKit.framework */,
+				CFEF63CD19AF781200D87984 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFEF63B419AF781200D87984 /* OKHero */ = {
+			isa = PBXGroup;
+			children = (
+				CFEF63BD19AF781200D87984 /* AppDelegate.h */,
+				CFEF63BE19AF781200D87984 /* AppDelegate.m */,
+				CFEF63C019AF781200D87984 /* Main.storyboard */,
+				CFEF63C319AF781200D87984 /* ViewController.h */,
+				CFEF63C419AF781200D87984 /* ViewController.m */,
+				CFEF63C619AF781200D87984 /* Images.xcassets */,
+				CFEF63B519AF781200D87984 /* Supporting Files */,
+			);
+			path = OKHero;
+			sourceTree = "<group>";
+		};
+		CFEF63B519AF781200D87984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFEF63B619AF781200D87984 /* OKHero-Info.plist */,
+				CFEF63B719AF781200D87984 /* InfoPlist.strings */,
+				CFEF63BA19AF781200D87984 /* main.m */,
+				CFEF63BC19AF781200D87984 /* OKHero-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFEF63D319AF781200D87984 /* OKHeroTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFEF63D919AF781200D87984 /* OKHeroTests.m */,
+				CFEF63D419AF781200D87984 /* Supporting Files */,
+			);
+			path = OKHeroTests;
+			sourceTree = "<group>";
+		};
+		CFEF63D419AF781200D87984 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFEF63D519AF781200D87984 /* OKHeroTests-Info.plist */,
+				CFEF63D619AF781200D87984 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFEF63AA19AF781200D87984 /* OKHero */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEF63DD19AF781200D87984 /* Build configuration list for PBXNativeTarget "OKHero" */;
+			buildPhases = (
+				CFEF63A719AF781200D87984 /* Sources */,
+				CFEF63A819AF781200D87984 /* Frameworks */,
+				CFEF63A919AF781200D87984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OKHero;
+			productName = OKHero;
+			productReference = CFEF63AB19AF781200D87984 /* OKHero.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFEF63CB19AF781200D87984 /* OKHeroTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFEF63E019AF781200D87984 /* Build configuration list for PBXNativeTarget "OKHeroTests" */;
+			buildPhases = (
+				CFEF63C819AF781200D87984 /* Sources */,
+				CFEF63C919AF781200D87984 /* Frameworks */,
+				CFEF63CA19AF781200D87984 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFEF63D219AF781200D87984 /* PBXTargetDependency */,
+			);
+			name = OKHeroTests;
+			productName = OKHeroTests;
+			productReference = CFEF63CC19AF781200D87984 /* OKHeroTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFEF63A319AF781200D87984 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = mobilike;
+				TargetAttributes = {
+					CFEF63CB19AF781200D87984 = {
+						TestTargetID = CFEF63AA19AF781200D87984;
+					};
+				};
+			};
+			buildConfigurationList = CFEF63A619AF781200D87984 /* Build configuration list for PBXProject "OKHero" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFEF63A219AF781200D87984;
+			productRefGroup = CFEF63AC19AF781200D87984 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFEF63AA19AF781200D87984 /* OKHero */,
+				CFEF63CB19AF781200D87984 /* OKHeroTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFEF63A919AF781200D87984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEF63C719AF781200D87984 /* Images.xcassets in Resources */,
+				CFEF63B919AF781200D87984 /* InfoPlist.strings in Resources */,
+				CFEF63C219AF781200D87984 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEF63CA19AF781200D87984 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEF63D819AF781200D87984 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFEF63A719AF781200D87984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEF63C519AF781200D87984 /* ViewController.m in Sources */,
+				CFEF63BF19AF781200D87984 /* AppDelegate.m in Sources */,
+				CFEF63BB19AF781200D87984 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFEF63C819AF781200D87984 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFEF63DA19AF781200D87984 /* OKHeroTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFEF63D219AF781200D87984 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFEF63AA19AF781200D87984 /* OKHero */;
+			targetProxy = CFEF63D119AF781200D87984 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFEF63B719AF781200D87984 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEF63B819AF781200D87984 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CFEF63C019AF781200D87984 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEF63C119AF781200D87984 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFEF63D619AF781200D87984 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFEF63D719AF781200D87984 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFEF63DB19AF781200D87984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CFEF63DC19AF781200D87984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFEF63DE19AF781200D87984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKHero/OKHero-Prefix.pch";
+				INFOPLIST_FILE = "OKHero/OKHero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CFEF63DF19AF781200D87984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKHero/OKHero-Prefix.pch";
+				INFOPLIST_FILE = "OKHero/OKHero-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		CFEF63E119AF781200D87984 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OKHero.app/OKHero";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKHero/OKHero-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OKHeroTests/OKHeroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CFEF63E219AF781200D87984 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OKHero.app/OKHero";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OKHero/OKHero-Prefix.pch";
+				INFOPLIST_FILE = "OKHeroTests/OKHeroTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFEF63A619AF781200D87984 /* Build configuration list for PBXProject "OKHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEF63DB19AF781200D87984 /* Debug */,
+				CFEF63DC19AF781200D87984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFEF63DD19AF781200D87984 /* Build configuration list for PBXNativeTarget "OKHero" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEF63DE19AF781200D87984 /* Debug */,
+				CFEF63DF19AF781200D87984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFEF63E019AF781200D87984 /* Build configuration list for PBXNativeTarget "OKHeroTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEF63E119AF781200D87984 /* Debug */,
+				CFEF63E219AF781200D87984 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFEF63A319AF781200D87984 /* Project object */;
+}
